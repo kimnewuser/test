@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개 홈페이지</title>
+
+    <link rel="stylesheet" href="../css/Basic.css">
+    <link rel="stylesheet" href="../css/Login.css">
+
+</head>
+<body>
+    <!-- 상단 부분 이미지 -->
+    <div id="header">
+        <h1 id="title">연디</h1>
+    </div>
+    
+<div id="section">
+    <!-- 로그인 -->
+    <div id="profile">
+        <h3 class="small_header">로그인</h3>
+        <form action="./MainHome.html" method="post">
+            아이디 : <input type="text" name="id" size="5" > <br>
+            비밀번호 : <input type="password" name="pw" size="5"> <br>
+            <br>
+            <input type="submit" value="로그인" onclick="alert('로그인에 성공하셨습니다!')"> <input type="reset" value="초기화">
+        </form>
+    </div>
+
+    <!-- 내용 -->
+    <div id="content">
+        <img src="../images/Home_intro.jpg" alt="한강 사진" id="quote_img">
+
+        <div id="quote">
+            <p id="p1">미소의 희화화</p>
+            <p id="p2">차정은</p>
+            <br>
+            반짝거린다는 말이 왜 그리 좋았던 것인지 <br>
+            텅 빈 마음에도 생기를 담아주고 서로의 온기를 느끼며 <br>
+            그렇게 앞으로 사랑하자 <br>
+            <br>
+            지구가 녹아 없어질 때까지 영원한 사랑을 말하자 <br>
+        </div>
+    </div>
+
+    <!-- 메뉴바 -->
+    <div id="menubar">
+        <h3 class="small_header">MENU</h3>
+        <ul>
+            <li><a href="./LoginHome.html">메인</a></li>
+            <li><a href="#" onclick="alert('로그인 후 이용해주세요!')">일기장</a></li>
+            <li><a href="#" onclick="alert('로그인 후 이용해주세요!')">사진첩</a></li>
+            <li><a href="#" onclick="alert('로그인 후 이용해주세요!')">스크랩북</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
